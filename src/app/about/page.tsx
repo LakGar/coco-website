@@ -4,11 +4,13 @@ import Mission from '@/components/about/mission'
 import Footer from '@/components/landing/footer'
 import Nav from '@/components/landing/nav'
 import VideoStatsSection from '@/components/landing/video-stats-section'
+import Hero from '@/components/about/hero'
 
 const About = () => {
   return (
-    <div className="w-screen flex flex-col justify-center items-center z-10 relative bg-primary-foreground">
+    <div className="w-screen flex flex-col justify-center items-center z-10 relative bg-primary-foreground overflow-x-hidden">
       <Nav />
+      <Hero />
       <Mission />
 
       <VideoStatsSection />

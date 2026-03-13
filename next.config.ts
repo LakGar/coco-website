@@ -1,8 +1,6 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-
-
   /* config options here */
   images: {
     domains: ['cdn-icons-png.flaticon.com'],
@@ -15,10 +13,16 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'img.freepik.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
     ],
-
-
   },
-};
+}
 
-export default nextConfig;
+export default nextConfig

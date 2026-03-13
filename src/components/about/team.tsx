@@ -26,7 +26,7 @@ const Team = () => {
         <h1 className="text-2xl font-bold text-primary md:text-4xl lg:text-5xl w-[350px] md:w-[400px] lg:w-[500px]">
           Meet the team behind Coco
         </h1>
-        <p className="text-primary/80 w-[350px] md:w-[400px] lg:w-[500px] text-sm md:text-sm">
+        <p className="text-primary/80 w-[350px] md:w-[400px] lg:w-[500px] text-sm md:text-base">
           We are a team of caregivers, developers, and designers who are
           passionate about creating a better way to care for the people who
           matter most.

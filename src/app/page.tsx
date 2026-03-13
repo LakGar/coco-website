@@ -14,9 +14,7 @@ export default function Home() {
     <>
       <Nav />
       <Hero />
-      {/* Transparent spacer so hero is visible; then content scrolls over hero */}
       <main className="relative z-10">
-        <div className="h-[100vh]" aria-hidden />
         <div className="bg-background rounded-t-3xl">
           <Feature />
           <Philosophy />
